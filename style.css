@@ -57,7 +57,6 @@ span {
 .quantity {
     display: flex;
     float: right;
-    /* padding: 10px; */
 }
 
 .btn {
