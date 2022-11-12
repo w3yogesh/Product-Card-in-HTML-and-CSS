@@ -1,0 +1,152 @@
+body {
+    background: #9ba6e6;
+    font-family: system-ui;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.product-card {
+    /* border: 1px solid; */
+    /* max-width: 100vw; */
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 1px solid #eee;
+    border-radius: 20px;
+}
+
+.img {
+    border-bottom: 1px solid #222;
+    display: grid;
+}
+
+.prod-name {
+    display: inline-block;
+}
+
+span {
+    display: block;
+    font-size: 18px;
+}
+
+.prod-price {
+    display: inline-block;
+    float: right;
+}
+
+.size {
+    display: block;
+    margin: 15px;
+}
+
+.sizes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tag {
+    display: inline-block;
+    padding: 10px;
+    background: #eee;
+    border-radius: 20px;
+}
+.tag>span{
+    font-size: 16px;
+}
+
+.quantity {
+    display: flex;
+    float: right;
+    /* padding: 10px; */
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+
+span#discount {
+    float: right;
+    background: #222;
+    border-radius: 100px;
+    color: #eee;
+    /* width: 50px; */
+    /* height: 50px; */
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    padding: 22px 10px 22px 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.product-details {
+    margin: 0;
+    padding: 12px;
+}
+
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+span.des {
+    color: #676666;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: 600;
+    color: #dc5100;
+}
+
+
+.tag-quantity {
+    padding: 10px;
+}
+
+.quantity>button {
+    background: #00bcd4;
+    color: #ff0000fa;
+    border: 0;
+    border-radius: 20px;
+    font-size: 25px;
+    /* font-weight: 600; */
+    padding: 2px 20px 2px 20px;
+}
+
+.quantity>span {
+    font-size: 22px;
+    padding: 0 20px;
+}
+
+
+.cart-btn {
+    font-size: 22px;
+    border: 1px solid #eee;
+    background: bisque;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 48%;
+}
+
+.buy-btn {
+    font-size: 22px;
+    border: 1px solid #eee;
+    background: bisque;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 48%;
+}
+button{
+    cursor: pointer;
+}
+.product-img {
+    border-radius: 10px 0 0 0;
+    
+}

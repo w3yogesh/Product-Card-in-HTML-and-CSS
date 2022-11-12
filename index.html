@@ -1,0 +1,68 @@
+<!-- 
+    Problem Statement 2
+
+    Event: CSS Battle
+    Tagline: Battle It Out - The CSS Version
+    Problem Statement designed by: 
+    Prakhar Gupta
+    (MCA Final Year)
+    Departmental Co-ordinator, CSED
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Card</title>
+</head>
+
+<body>
+    <div class="product-card">
+        <span id="discount">- 18%</span>
+        <div class="img">
+            <img class="product-img" src="tshirt.jpeg"> <!-- You can change this line -->
+        </div>
+        <div class="product-details">
+            <div class="prod-name-price">
+                <div class="prod-name">
+                    <span class="title">Addidas Original</span>
+                    <span class="des">Premium Quality T-Shirt</span>
+                </div>
+                <div class="prod-price">
+                    <span class="price">₹290</span>
+                    <span class="real-price"><s>₹400</s></span>
+                </div>
+            </div>
+            <div class="size">
+                <div class="sizes">
+                    <input type="radio" id="s" name="size" value="s">
+                    <label for="s">S</label>
+                    <input type="radio" id="m" name="size" value="m">
+                    <label for="m">M</label>
+                    <input type="radio" id="l" name="size" value="l">
+                    <label class="selected" for="l">L</label>
+                    <input type="radio" id="xl" name="size" value="xl">
+                    <label for="xl">XL</label>
+                </div>
+            </div>
+            <div class="tag-quantity">
+                <div class="tag">
+                    <span>Application Club</span>
+                </div>
+                <div class="quantity">
+                    <button>+</button><span>2</span><button>-</button>
+                </div>
+            </div>
+            <div class="btn">
+                <button type="submit" class="cart-btn">Add To Cart</button>
+                <button type="submit" class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
